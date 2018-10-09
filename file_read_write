@@ -1,0 +1,14 @@
+with open(filename) as a_file:
+    stengur = a_file.read()
+#opnar file og býr til streng úr innhaldinu geymir strenginn í breytu sem heitir strengur
+
+with open('test.txt', 'w') as a_file:
+    a_file.write('hallo kalli')
+
+#opnar test.txt og skrifar inni hana 'hallo kalli', overwritar allt annað sem var fyrir inní filenum
+
+with open('test.txt', 'a') as a_file:
+    a_file.write('önnur lína')
+#opnar test.txt og bætir við textanum önnur lína í nýja línu í stránni.
+
+

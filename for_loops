@@ -1,0 +1,21 @@
+listi = [1,2,3,4]
+for i in listi: #fer í gengum hvert stak í listanum, byrjar á 1 og svo 2 o.f.v
+    i*2 #tekur i og margfaldar með tvemur
+
+
+for loopur eru sniðugar til þess að ítra í gegnum lista eða strengi og gera eitthvað við hvert stak.
+
+hægt er að nota in range(1,10) eða in range(breyta, 20) ef þess þarf.
+og hægt að nota fleirri methodur í forloopunni eins og t.d
+
+for num, value in enumerate(listi): #enumerate skilar staðsetningu staksins og stakinu sjálfu
+    print(num,value)
+
+> 0 1   # 0 er staðsetning staksins og 1 er stakið sjálft.
+> 1 2
+> 2 3 
+> 3 4
+
+#Getum þurft að nota staðsetningu staksins til að prenta ut staðsenginguna t.d í örðum lista.
+
+    

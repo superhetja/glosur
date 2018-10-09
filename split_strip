@@ -1,0 +1,15 @@
+split 
+x,y,z= input('Settu inn gildi: ').split(' ')
+2 3 6
+x= 2
+y=3
+z=6
+x= input('Settu in gildi: ').split(' ')
+2 3 6
+x = [2,3,6]
+
+
+x= input('Settu inn gildi: ').stirp()
+    3,2,7 \n
+
+x= 3,2,7

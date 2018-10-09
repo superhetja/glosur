@@ -1,0 +1,9 @@
+listar eru mutable
+sem þýðir að hægt sé að breyta þeim
+
+tuplur eru immutable
+ekki hægt að breyta
+
+það er hægt að senda lista í fall og breyta listanum án þess að skila honum til baka
+
+t.d með .append() .extend()

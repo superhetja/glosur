@@ -1,0 +1,21 @@
+i = 0
+while i < 10:
+    print('loopa')
+    i += 1
+> prentar loopa 10 sinnum. 
+
+Gott að nota þegar við þurfum að gera aðgerð nokkrusinnum. 
+einnig er hægt að nota True til að byrja while loopu og nota brake þegar einhvert ákveðnu skilyrði er náð.
+
+listi = [1,2,3,4,5]
+while True:
+    for i in lista:
+        if i == 3:  #brakear úr loopunni ef i er 3
+            brake
+        else:
+            i*2
+            print(i)
+
+> 2
+> 4
+

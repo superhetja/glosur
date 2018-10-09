@@ -1,0 +1,5 @@
+a = 'eitthvad'
+print(a[1:5])
+> itth
+
+#slice 
