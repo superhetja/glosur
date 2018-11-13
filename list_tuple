@@ -7,3 +7,6 @@ ekki hægt að breyta
 það er hægt að senda lista í fall og breyta listanum án þess að skila honum til baka
 
 t.d með .append() .extend()
+
+
+a = [str(i)+j for i in range(1,14) for j in suit]

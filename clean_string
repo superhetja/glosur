@@ -1,0 +1,4 @@
+[i.replace('\n', ' ').strip() for i in file_list]
+
+from string import punctuation
+clean_list = [i.strip(punctuation) for i in file_list]

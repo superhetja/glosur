@@ -19,3 +19,10 @@ while True:
 > 2
 > 4
 
+more = True
+
+while more:
+    
+    again = input('Play again: ')
+    more = again.lower() == 'y'
+

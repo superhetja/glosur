@@ -1,0 +1,45 @@
+data['a']=1  # Updates if 'a' exists, else adds 'a'
+
+b= data['a'] # b gets the value of a
+
+b= data.get(a) #returns none if a not found
+
+for key in data: # Iterates just through the keys, ignoring the values
+for key, value in d.items(): # Iterates through the pairs
+for key in d.keys(): # Iterates just through key, ignoring the values
+for value in d.values(): # Iterates just through value, ignoring the keys
+
+dictionaries aren't sorted. they just arent. if you want to go through the elements in order you'd have to do 
+something like you said using sorted such as "for key in sorted(d.keys())" assuming d is the name of your 
+dictionary
+
+def find_key(a_dict):
+    fnd_key = input('Key to locate: ')
+    if fnd_key in a_dict:
+        print('Value:',a_dict.get(fnd_key))
+    else:
+        print('Key not found.')
+
+def add_to_dict(a_dict):
+    add_key = input('Key: ')
+    add_value = input('Value: ')
+    if add_key not in a_dict:
+        a_dict.update({add_key: add_value})
+    else:
+        print('Error. Key already exists.')
+
+def remove_from_dict(a_dict):
+    rm_key = input('key to remove: ')
+    if rm_key in a_dict:
+        a_dict.pop(rm_key)
+    else:
+        print('No such key exists in the dictionary.')
+
+store = {}
+for k, v in yoursource:
+    try:
+        store[k].add(v)
+    except KeyError:
+        store[k] = {v}
+
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
